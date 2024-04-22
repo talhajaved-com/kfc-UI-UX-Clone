@@ -1,0 +1,431 @@
+.delivery-btn{
+    background-color: #ea002a;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 0px solid transparent;
+}
+
+.pickup-btn{
+    background-color: #1C1816;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 0px solid transparent;
+}
+
+.nav-btns{
+    width: fit-content;
+   
+    background-color: #1C1816;
+    border: 0px solid transparent;
+    border-radius: 12px;
+}
+
+.location-btn{
+    background-color: #1C1816;
+    color: white;
+    border-radius: 8px;
+    border: 0px solid transparent;
+}
+
+
+.location-btn span{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.location-btn i{
+    color: #E4002B !important;
+    font-size: 20px;
+}
+
+.sign-btn{
+    background-color: #E4002B;
+    color: white;
+    border-radius: 8px;
+    border: 0px solid transparent;
+}
+
+
+.bg-pure-black{
+    background-color: black;
+    color: white;
+}
+
+.start-nav{
+    height: fit-content;
+}
+
+
+
+.myline{
+    background-color: #E4002B;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 47%;
+    z-index: 2;
+
+
+      
+  }
+    
+
+
+
+.heading-sec h3{
+    text-transform: uppercase;
+    color: white;
+    z-index: 3;
+    margin: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    padding-right: 12px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+
+
+.body-swiper {
+    position: relative;
+  }
+
+  .body-swiper {
+    background: #000000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  .details-design {
+    color: #fff; /* Text color */
+    font-weight: 500;
+    text-transform: capitalize;
+    
+}
+
+.details-design .underline {
+    padding-right: 5px; /* Padding on the right side of the text */
+    border-bottom: 3px solid red; /* Red underline */
+    text-transform: capitalize;
+    text-decoration: none; /* Remove default underline if present */
+    margin-bottom: 5px; /* Add some margin between text and underline */
+    display: inline-block; /* Ensure proper spacing */
+    border-radius: 2;
+    
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content !important;
+    margin: 0 !important;
+  
+
+    background-color: #1C1816;
+    padding: 15px;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 180px;
+    
+    border-bottom-right-radius: 0; 
+  }
+  .swiper-slide img{
+    height: 150px;
+  }
+  
+  
+
+  .swiper-wrapper{
+      justify-content: center;
+      gap: 10px;
+  }
+
+  .product img{
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+
+  .product p{
+    font-size: 13px;
+    padding-top: 8px;
+  }
+
+  .product span{
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 8px;
+  }
+  
+  .product button{
+    font-weight: 700;
+    font-size: 13px;
+    padding: 6px 16px;
+    background-color: #E4002B; 
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: white;
+  }
+
+  .my-product-card{
+   background-color: #1C1816;
+    padding: 15px;
+    border-radius: 18px;
+  }
+
+  .my-product-card h3{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 12px;
+  }
+
+  *{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .bg-pure-gray{
+   background-color: #1C1816;
+  }
+
+  .my-icons{
+    cursor: pointer;
+    margin-left: 8px;
+    padding: 8px;
+    display: inline-flex;
+    background-color: white;
+    border-radius: 20px;
+    vertical-align: middle;
+  }
+
+  .footer li{
+    list-style: none;
+    color: white;
+  }
+
+  .my-div{
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .my-btn-bg{
+    background-color: #E4002B; 
+    display: inline-block;
+    padding: 10px 38px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 8px;
+    
+  }
+
+
+  .my-bg-img{
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  .footer li{
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 2px 0px;
+  }
+
+  .footer li:hover{
+    color: #E4002B; 
+    
+  }
+
+  .start-nav{
+    gap: 3rem;
+  }
+
+
+
+  @media screen and (max-width: 500px){
+
+    .start-nav{
+      flex-direction: column;
+      gap: 12px !important;        
+    }
+    
+    .hide-me{
+      display: none;
+    }
+
+    .heading-sec h3{
+      font-size: 18px;
+    }
+
+
+    .my-product-card{
+      padding: 8px;
+    }
+
+    .my-product-card p{
+      font-size: 12px;
+      margin: 0px;
+    }
+
+    .myflex{
+      flex-direction: column;
+    }
+
+    .product button {
+      padding: 5px;
+    }
+
+    .my-bg-img img{
+      width: 200px;
+    }
+
+    .my-bg-img h5{
+      font-size: 18px;
+    }
+
+    .my-btn-bg{
+      font-size: 17px;
+      padding: 6px 28px;
+    }
+
+    .footer{
+      padding: 0px;
+    }
+  }
+
+  
+  @media screen and (max-width: 800px){
+
+    .my-bg-img img{
+      width: 180px;
+    }
+
+    .my-bg-img h5{
+      font-size: 16px;
+    }
+
+    
+    .my-btn-bg{
+      font-size: 16px;
+      padding: 4px 18px;
+    }
+
+
+  }
+
+
+  
+  @media screen and (max-width: 570px){
+
+    
+    .swiper-slide img{
+      width: 120px;
+    }
+  }
+
+
+  @media screen and (max-width: 1200px){
+
+
+    .swiper-wrapper{
+      justify-content: start;
+      gap: 10px;
+  }
+
+}
+
+
+.copyright {
+  text-align: center;
+  background-color: #1C1816;
+  color: white;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.copyright a {
+  color: #E4002B;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .copyright {
+    font-size: 12px;
+  }
+
+  .swiper-slide img{
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto; /* Allow the height to adjust proportionally */
+  }
+
+}
+
+
+
+.shine {
+  font-size: 1em;
+  font-weight: 400;
+  color: rgba(255, 0, 0, 0.699);
+  background: #222 -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#222),
+      to(#222),
+      color-stop(0.5, #fff)
+    ) 0 0 no-repeat;
+  background-image: -webkit-linear-gradient(
+    -40deg,
+    transparent 0%,
+    transparent 40%,
+    #fffafa 50%,
+    transparent 60%,
+    transparent 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-background-size: 50px;
+  -webkit-animation: zezzz;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes zezzz {
+  0%,
+  10% {
+    background-position: -200px;
+  }
+  20% {
+    background-position: top left;
+  }
+  100% {
+    background-position: 200px;
+  }
+}
+.svg-button {
+  width: 50px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  background-image: url('https://www.kfcpakistan.com/static/media/bucket-filled.d2ad11819eca0f28a8ac.svg');
+  background-size: cover; /* Ensure the SVG covers the entire button */
+  background-repeat: no-repeat; /* Prevent the SVG from repeating */
+  background-color: transparent; /* Make the background transparent */
+  border: none; /* Remove default button border */
+  /* Add any additional styling as needed */
+}
